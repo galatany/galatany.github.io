@@ -1,0 +1,142 @@
+.containerfirst{
+	width: 1366px;
+	background: white;
+	margin: 0 auto;
+}
+.navbar img{
+	height: 100%;
+}
+.navbar ul li:hover{
+background: #d8ab8b; 
+}
+.navbar {
+	padding: 100;
+	margin: 0;
+}
+ul li:hover{
+	background: #d8ab8b;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: #F1D4BB; /* Цвет линии */
+    height: 2px; /* Толщина линии */
+   }
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+ .tabs{
+  background-color:#f5f5f5;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.tabs .tab-pane{
+  margin-left:20px;
+}
+.tabs h3{
+  font-size:20px;
+  margin-top:10px;
+  margin-bottom:60px;
+}
+.tabs p{
+  font-size:14px;
+}
+.tabs a{
+  font-size:15px;
+  font-family:OpenSans,sans-serif;
+  font-weight:700;
+  color:#fff;
+  padding:30px;
+}
+.tabs li{
+  background-color:#333;
+  margin-top:1px;
+  text-align:center;
+  height:100px;
+  width:150px;
+  padding-top:45px;
+}
+.main-text {
+position: absolute;
+top: 50px;
+width: 96%;
+color: #FFFFFF;
+}
+.forma {
+	display: inline-block;
+	width: 330px;
+	height: 400px;
+	background: #F1D4BB;
+	}
+.mysothials{
+background: #F1D4BB;
+}
+.icon1{
+background:url(../images/Active/f.png) 100% no-repeat; 
+}
+.icon1:hover{
+background:url(../images/noActive/f2.png) 100% no-repeat; 
+} 
+.icon2{
+background:url(../images/Active/t.png) 100% no-repeat; 
+}
+.icon2:hover{
+background:url(../images/noActive/t2.png) 100% no-repeat; 
+} 
+.icon3{
+background:url(../images/Active/g.png) 100% no-repeat; 
+}
+.icon3:hover{
+background:url(../images/noActive/g2.png) 100% no-repeat; 
+} 
+.icon4{
+background:url(../images/Active/t.png) 100% no-repeat; 
+}
+.icon4:hover{
+background:url(../images/noActive/t2.png) 100% no-repeat; 
+} 
+.panel{
+	width: 300px;
+	height: 50px;
+	background:#808080;
+	margin-left: 0px;
+}
+.form-group{
+	margin-top: 30px;
+	padding: 10px; /* Поля */
+    
+}
+.tab{
+	background: #FFF0F5;
+}
+.fresh{
+	background: #F1D4BB;
+	height: 500px;
+}
+aside {
+        padding: 10px 10px; /* Поля */
+    margin: 130px 100px 150px 10px; /* Отступы */
+}
+aside p {
+ margin: 0.6em 0; }
+aside img { 
+    vertical-align: left; /* Выравнивание по середине строки */ 
+}
+.cat{
+background: #FFF0F5;
+height:300px;
+text-align:center;
+}
+.forma2 {
+	display: inline-block;
+	width: 100%;
+	background: #003C3C;
+}
+.end{
+	height: 300px;
+	background: pink;
+	text-align:center;
+}
+.copy{
+	background: blue;
+}
