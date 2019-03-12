@@ -1,2 +1,0 @@
-# galatany.github.io
-catdog
