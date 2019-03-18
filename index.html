@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   
+ <link rel="stylesheet" href="style.css">
+    <title>Hello, catdog!</title>
+</head>
+<body>
+<!-- ***  Меню старт   **************************-->
+<div class="container-fluid menu">
+  <div class="row">
+    <div class="col-xl-12">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+
+              <!--Brand logo-->
+        <a class="navbar-brand" href="#">
+          <img src="images/cat1.png" alt="logo" >
+        </a>
+              <!--Кнопка при згортанні-->
+        <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>              
+        </button>
+              <!--Меню-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto py-0">
+            <li class="nav-item py-2">
+              <a  class="nav-link" href="#">Головна</a>
+            </li>
+            <li class="nav-item py-2" >
+              <a class="nav-link" href="#">Відгуки</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">Купити</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">Контакти</a>
+            </li>
+          </ul>
+         </div>
+       </nav>
+     </div>
+   </div> 
+ </div>
+<!-- ******Меню финиш******-->
+
+<!-- ******Карусель старт*************************-->
+<div class="container-fluid mycarusel">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+         
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/cat.jpg" alt="Los Angeles">
+             </div>
+            <div class="carousel-item">
+              <img src="images/cat.jpg" alt="Chicago">
+             </div>
+            <div class="carousel-item">
+              <img src="images/cat.jpg" alt="New York">
+             </div>
+         </div>
+
+        <!-- Indicators -->
+                         
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+           </ul>
+            <!--end кнопки линии-->
+
+        <div class="main-text hidden-xs">
+          <div class="row py-5"></div>
+          <div class="row py-5">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+              <img src="images/cat1.png" alt="logo" class="py-1" >
+              <h2>ПОДБАЙТЕ ПРО ВАШОГО<br> ДОМАШНЬОГО УЛЮБЛЕНЦЯ</h2>
+              <h3>__________</h3>
+              <h4>Дана програма допоможе розробити<br>
+              ефективну систему догляду за домашнім улюбленцем</h4>
+              <a href="images/cat.jpg">
+              <button class="my-4 p-2" >Завантажити</button></a>
+             </div>
+
+            <!--forma start-->
+            <div class="forma col-lg-4 d-sm-none d-md-block">
+              <form>
+                <div class="myformheader"> 
+                     <p class="text-center">Спробуйте <span>БЕЗКОШТОВНО</span></p>
+                 </div>
+                <div class="d-flex flex-column">
+                    <input type="text" class=" px-3 m-3" placeholder="Ім'я">
+                    <input type="email" class="px-3 m-3" placeholder="Електронна пошта">
+                    <input type="password" class="px-3 m-3" placeholder="Пароль">
+                 </div>
+                    <input type="submit" class="btn btn-warning btn-block"  value="Розпочнімо">
+              </form>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  <div class="row">
+    
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
+  </div>
+ </div>
+<!-- ******Карусель финиш      Соцсеть******-->
+<div class="container-fluid mysothials">
+  <div class="container">
+    <div class="row py-2">
+      <div class="col-lg-5">
+        <h3>Соціальні мережі</h3>
+        <p class="text-muted">Ми в соціальних мережах,<br>підпишіться і отримайте знижку!</p>
+       </div>
+      <div class="col-lg-1 py-4"> <a href="https://facebook.com/">
+        <img src="images/f2.png" onmouseover="this.src='images/f.png'" onmouseout="this.src='images/f2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://twitter.com">
+        <img src="images/t.png" onmouseover="this.src='images/t.png'" onmouseout="this.src='images/t2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://plus.google.com">
+        <img src="images/g.png" onmouseover="this.src='images/g.png'" onmouseout="this.src='images/g2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://www.pinterest.com">
+        <img src="images/p.png" onmouseover="this.src='images/p.png'" onmouseout="this.src='images/p2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://www.instagram.com"><img src="images/i.png" onmouseover="this.src='images/i.png'" onmouseout="this.src='images/i2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://www.instagram.com"><img src="images/z.png" onmouseover="this.src='images/z.png'" onmouseout="this.src='images/z2.png'"  alt="z1"></a> 
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://www.instagram.com"><img src="images/w.png" onmouseover="this.src='images/w.png'" onmouseout="this.src='images/w2.png'"  alt="z1"></a>
+      </div>
+     </div>
+   </div>
+ </div>
+<!--tab start-->
+<div class="container-fluid tabs">
+  <div class="container">
+    <div class="row py-4"></div>
+    <div class="row">
+        <div class="col-lg-2">
+          <ul class="nav nav-pills nav-stacked flex-column">
+            <li class="active"><a href="#tab_a" data-toggle="pill">Карантин</a>
+            </li>
+            <li><a href="#tab_b" data-toggle="pill">Глюки</a></li>
+            <li><a href="#tab_c" data-toggle="pill">Вівці</a></li>
+          </ul>
+       </div>
+        <div class="col-lg-10">
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab_a">
+            <div class="row">
+              <div class="col-lg-9">
+<h4>Прості рішення знайти важче.</h4>
+<p>Йшов п'ятий день карантину...Батьки щиро зізнавалися у любові вчителям. В квартирах закінчувався стратегічний запас продуктів. Усі розетки були зайняті зарядками від гаджетів. Мами згадали всі ігри свого дитинства. </p>
+<p>І навіть кіт, одягнутий у плаття, виглядав з коляски і мріяв про початок занять у школі...</p>
+               </div>
+              <div class="col-lg-3">
+                <img src="images/tab1.gif" style="width:100%;">
+              </div>
+             </div>
+           </div>
+            <div class="tab-pane" id="tab_b">
+              <div class="row">
+                <div class="col col-lg-9">
+<h3>Глюк – що це, хто це?</h3>
+<p>Глюк — це прізвище великого австрійського композитора чеського походження. Крістоф Глюк жив у XVIII столітті. Він був придворним капельмейстером, створював музику для опери. Прославився тим, що став реформатором цього жанру. Автор 107 опер.</p>
+
+<p>Гаврило Глюк – один із найбільш недооцінених художників Закарпаття. «Лісоруби» Гаврила Глюка – одна з найвідоміших картин, намальованих закарпатським митцем. Саме за цю роботу художника в 1958-му році нагородили Великою срібною медаллю на Всесвітній виставці в Брюсселі.</p>
+                 </div>
+                <div class="col-lg-3">
+                  <img src="images/tab2.gif" style="width:100%;">
+                 </div>
+               </div>
+             </div>
+      <div class="tab-pane" id="tab_c">
+        <div class="row">
+          <div class="col col-lg-9">
+<h3>Цікаві факти про баранчиків.</h3>
+<p>Вівці були одомашнені людьми більше 8000 років тому. Популяція овець Австралії перевищує кількість населення країни в 4 рази. Найбільше поголів’я овець в світі знаходиться в Китаї. Найперший клонований ссавець – це овечка Доллі. Всього в світі налічується близько шестисот різних порід овець.</p>
+<p>Вівці здатні дивитися назад, не повертаючи голови. Як не дивно, але експерименти підтвердили, що вівці володіють відмінною пам’яттю. Вівці мають прямокутні зіниці. Також вівці розрізняють кольори.</p>
+            </div>
+           <div class="col-lg-3">
+              <img src="images/tab3.gif" style="width:100%;">
+           </div>
+         </div>
+       </div>
+       <div class="row py-5"></div>
+      </div>
+    </div>
+      <!--Tab end-->
+     </div>
+   </div>
+ </div>
+   <!--Береза-->
+<div class="container-fluid fresh">
+  <div class="container">
+    <div class="row py-3"></div>
+    <div class="row">
+      <div class="col-lg-4">
+       <img src="images/dog.gif" alt="logo" style="width:100%;"> 
+       </div>
+      <div class="col-lg-2"></div> 
+      <div class="col-lg-6">
+        <h4>Березовий сік з м'якоттю</h4>
+        <div class="divider"></div>
+        <h6>Коли я бачу в супермаркеті продукти за ціною 50 гривень за кг, хочу запитати: їх вирощують в Антарктиді дресировані пінгвіни в теплицях, опалювальні термоядерними станціями, а охороняють їх моржі, яких годують осетриною і чорною ікрою?
+        </h6>
+            <div class="row">
+              <div class="col-lg-2">
+                <svg width="100" height="80">
+                 <circle cx="50" cy="30" r="18" stroke="orange" stroke-width="2" fill="none">
+                </svg>
+               </div>
+              <div class="col-lg-10 ">
+                <h5>Про вечерю:</h5>
+                <p>Добрий ранок розпочинається з обіду.</p>
+              </div>
+            <div class="row">
+              <div class="col-lg-2">
+                      <svg width="100" height="80">
+                      <circle cx="50" cy="30" r="18" stroke="orange" stroke-width="2" fill="none"></svg>
+              </div>
+                <div class="col-lg-10">
+                    <h5>Кожного вечора у мене один-єдиний план на ніч:</h5>
+                    <ol>
+                      <li> Прогнати кішку з кімнати, тому що вона заважає.</li> 
+                      <li> Переживати, що кішка образилася.</li> 
+                      <li> Взяти кішку назад.</li>
+                    </ol>
+                </div>   
+             </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+   <!--Фініш Береза--> 
+    <!--Сюрприз-->  
+<div class="container-fluid cat ">
+  <div class="row py-5"></div>  
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-7">
+        <h5>Сюрприз у траві</h5>
+          <p>Одного літнього спекотного дня, коли мені було років із десять, я повертався зі ставка після купання. Я був одягнений лишень у коротенькі шортики і кепку.І ось, коли я проходив по стежині повз лужок з високою травою, мені раптом 
+          захотілося стрибнути у цю траву.  І я з розбігу стрибнув рибкою у неї і м`яко 
+          приземлився! Та вже через мить,я знову був у повітрі, видаючи звук 
+          реактивного літака. Так високо я ще ніколи не стрибав, і так голосно ще не 
+          кричав, як тоді! Що ж сталося? Просто у високій траві ховалася, очікуючи на 
+          таких  як я пустунів, КРОПИВА!!! І не та, яка росте мало не біля кожного плоту, і 
+          про неї співає Михайло Поплавський, а її менша родичка. У цієї кропиви 
+          дрібненькі листочки, вона  невеличка на зріст, за те жалить набагато сильніше 
+          за звичайну. У нас в селі її називають «жиґавка» через її норовистий характер.
+
+          Дід же мій бачив, що зі мною сталось, і подумав що я стрибнув у мурашник і
+          , сміючись, сказав до мене: «Наступного разу будеш знати, як скакати туди,
+           де не слід!»</p> 
+     </div>  
+    <div class="col-lg-4">
+      <img src="images/cat2.gif" alt="logo" style="width:80%;">
+     </div>
+   </div>
+
+  <div class="row py-5"></div>
+</div>
+</div>
+     <!--Фініш сюрприз--> 
+     <!--форма2-->
+<div class="container-fluid forma2 "> 
+  <div class="container">
+    <div class="row py-4"></div>
+    <form>
+      <div class="row">
+        <div class="col-lg-12 py-2 m-3">
+         <h2>Ніщо не відбувається з нічого</h2></div>
+       </div>
+      <div class="row">
+        <div class="col-lg-4 py-2">
+          <input type="text" class=" px-3 m-3" placeholder="Ім'я" >
+         </div>
+        <div class="col-lg-4 py-2">
+          <input type="text"class=" px-3 m-3"  placeholder="+38(0__)___-___-___">
+        </div>
+        <div class="col-lg-4 py-2">
+          <input type="text"class=" px-3 m-3" placeholder="Кількість товару в шт.">
+         </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 py-2">
+          <button type="submit" class="btn btn-warning btn-block" onclick="test()">Замовити</button>
+        </div>
+       </div>
+     </form>
+     <div class="row py-5"></div>
+   </div>
+</div>
+     <!--форма2 end-->
+     <!--Анкета-->
+<div class="container-fluid Anketa "> 
+  <div class="container">
+    <div class="row py-5">
+        <div class="col-lg-12">
+          <h2 class="text-center">Якщо Вам скучно, напишіть до нас...<br>Будемо раді бачити новий спам!</h2>
+          <p class="text-center">Давайте спершу перекусимо, а дружелюбність проявите потім.</p>
+      <form class="form2">
+        <div class="form-group row py-3 ">
+          <div class="col-lg-6">
+            <input type="text" class="form-control" placeholder="Як звати">
+            <input type="email" class="form-control" placeholder="Куди електронні листи писати">
+            <input type="text" class="form-control" placeholder="Що в темі говорити">
+          </div>
+          <div class="col-lg-6">
+            <textarea class="form-control" rows="8" id="comment" placeholder="І що ви про це все думаєте?"></textarea>
+          </div>
+        </div>
+        <div class="form-group row pb-5 pt-3 mb-0">
+          <div class="col-lg-2 mx-auto">
+            <button type="submit" class="btn btn-info btn-block send_button">Відправити</button>
+        </div>
+        </div>
+      </form>
+        </div>
+      </div>
+    </div> 
+   </div>
+</div>
+
+     <!--Анкета-->
+     <!--Соцмереж2-->
+     <div class="container-fluid mysothials">
+  <div class="container">
+    <div class="row py-2">
+      <div class="col-lg-5 py-4">
+        <h3><p class="text-muted">&copy; 2019</p></h3>
+       </div>
+      <div class="col-lg-1 py-4"> <a href="https://facebook.com/">
+        <img src="images/f2.png" onmouseover="this.src='images/f.png'" onmouseout="this.src='images/f2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://twitter.com">
+        <img src="images/t.png" onmouseover="this.src='images/t.png'" onmouseout="this.src='images/t2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://plus.google.com">
+        <img src="images/g.png" onmouseover="this.src='images/g.png'" onmouseout="this.src='images/g2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://www.pinterest.com">
+        <img src="images/p.png" onmouseover="this.src='images/p.png'" onmouseout="this.src='images/p2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://www.instagram.com"><img src="images/i.png" onmouseover="this.src='images/i.png'" onmouseout="this.src='images/i2.png'"  alt="z1"> </a>
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://www.instagram.com"><img src="images/z.png" onmouseover="this.src='images/z.png'" onmouseout="this.src='images/z2.png'"  alt="z1"></a> 
+      </div>
+      <div class="col-lg-1 py-4"> <a href="https://www.instagram.com"><img src="images/w.png" onmouseover="this.src='images/w.png'" onmouseout="this.src='images/w2.png'"  alt="z1"></a>
+      </div>
+     </div>
+   </div>
+ </div>
+<!--tab start-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
