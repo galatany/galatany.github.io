@@ -1,0 +1,116 @@
+*{font-family: 'Roboto', sans-serif;}
+.navbar img{
+	height: 100%;
+}
+.navbar ul li:hover{
+background: #d8ab8b; 
+}
+ul li:hover{
+	background: #d8ab8b;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+}
+.mycarusel{
+padding-left: 0;
+padding-right: 0;
+} 
+.main-text {
+position: absolute;
+top: 50px;
+width: 96%;
+color: #FFFFFF;
+}
+.main-text h4{
+	font-weight: 300;
+	font-size:medium;
+}
+.main-text button{
+	border: 1px solid white;
+	background: rgba(255,255,255,0);
+	color: white;
+}
+.main-text button:hover{
+	border: 1px solid white;
+	background: rgba(255,255,255,0.3);
+	color: white;
+}
+.forma form {
+	background: #F1D4BB;
+	border-radius: 5px;
+} 
+.forma p{
+	margin: 0;
+}
+.text-center {
+	color: #000000;
+	font-size: 1.25em;
+	font-weight: 700;
+	line-height: 2.75;
+	background-color:#C0C0C0;
+	border-radius: 5px 5px 0 0;
+}
+.forma span{
+	color: #FFFFFF;
+}
+.mysothials{
+	background:#f1e3d1;
+	border: solid 1px #f1e3d1;
+}
+.tabs{
+  background-color:#f5f5f5;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.tabs .tab-pane{
+  margin-left:20px;
+}
+
+.tabs h3{
+  font-size:20px;
+  margin-top:10px;
+  margin-bottom:60px;
+}
+
+/*.tabs p{
+  font-size:14px;
+}
+*/
+.tabs a{
+  color:#F1D4BB;
+}
+.tabs li{
+  background-color:#333;
+  margin-top:1px;
+  text-align:center;
+  height:60px;
+  width:130px;
+  padding-top:15px;
+}
+.tabs li.active{
+  background-color:#ff8b38;
+}
+.fresh{
+background: #F1D4BB;
+}
+.divider {
+    width: 65px;
+    height: 2px;
+    background: #ff8b38;
+    margin: 15px 0;
+}
+.cat{
+background: #FFF0F5;
+} 
+.forma2 {
+background: #003C3C;
+}
+.forma2 h2{
+text-align:center;
+color: #F1D4BB; 
+}
+.Anketa p {
+background: white;
+}
